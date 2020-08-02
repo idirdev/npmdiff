@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/npmdiff",
+  "version": "1.0.0",
+  "description": "Compare two versions of an npm package (dependencies, size, scripts)",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/npmdiff.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "npmdiff": "bin/cli.js"
+  }
+}
